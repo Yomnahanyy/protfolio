@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1af9d3480a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header"> 
+        <div class="container">
+            <nav>
+                <img src="logo.jpg" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="toggel-btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            </div>
+            
+            <div class="dropdown">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            </div>
+            </nav>
+            <div class="header-text">
+                <p>FrontEnd Desiner</p>
+                <h1>Hi, I'm  <span>Yomna Hany</span> <br> From Egypt</h1>
+            </div>
+        </div>
+    </div>
+    <!--about-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+    <div class="about-col-1">
+        <img src="user.jpg" class="img">
+    </div>
+    <div class="about-col-2">
+    <h1 class="sub-title">About Me</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+        <br> Animi labore architecto voluptatibus maxime at hic veniam,
+        <br> sapiente sequi perspiciatis, porro nobis saepe, nemo quam eligendi!
+        <br> Laborum eveniet ea quam repudiandae!</p>
+        <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+        </div>
+        <div class="tab-contents active-tab" id="skills">
+            <ul>
+            <li><span> ForntEnd</span><br>Designing Web</li>
+            <li><span>Web Development</span><br>Web app Development</li>
+            <li><span>App Development</span><br>Building App</li>
+            </ul>
+        </div>
+        <div class="tab-contents " id="experience">
+            <ul>
+            <li><span> Html</span><br>task Html</li>
+            <li><span>css</span><br>Mediaqueritask</li>
+            <li><span>javascript</span><br>Building App</li>
+            </ul>
+        </div>
+        <div class="tab-contents " id="education">
+            <ul>
+            <li><span> 2023</span><br>Designing Web</li>
+            <li><span>2023</span><br>Web app Development</li>
+            <li><span>2024</span><br>Building App</li>
+            </ul>
+        </div>
+    </div>
+        </div>
+        </div>
+    </div>
+    <!--services-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title"> My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>html</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit,
+                        <br> Ex corporis perspiciatis facere dolores. </p>
+                        <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-css3"></i>
+                    <h2>css</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit,
+                        <br> Ex corporis perspiciatis facere dolores. </p>
+                        <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-node-js"></i>
+                    <h2>js</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit,
+                        <br> Ex corporis perspiciatis facere dolores. </p>
+                        <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--portfolio-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png">
+                    <div class="layer">
+                        <h3>Simple Quiz</h3>
+                        <p>The quiz contains simple questions</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.png">
+                    <div class="layer">
+                        <h3>landing page</h3>
+                        <p>the sample page</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-3.png">
+                    <div class="layer">
+                        <h3>To do-list</h3>
+                        <p>Simple steps to jot down tasks</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-4.png">
+                    <div class="layer">
+                        <h3>To do-list</h3>
+                        <p>Simple steps to jot down tasks</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-5.png">
+                    <div class="layer">
+                        <h3>To do-list</h3>
+                        <p>Simple steps to jot down tasks</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-6.png">
+                    <div class="layer">
+                        <h3>To do-list</h3>
+                        <p>Simple steps to jot down tasks</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <button class="btn">See more</button>
+            </div>
+        </div>
+    </div>
+    <!--contact-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-1eft">
+                    <h1 class="sub-title">Contact  Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> Email-Address</p>
+                    <p><i class="fa-solid fa-square-phone"></i> Phone-Number</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Massage" rows="10" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2"> Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright<i class="fa-regular fa-copyright"></i> yomna. made with <i class="fa-solid fa-heart"></i>by easy Tutorials</p>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
